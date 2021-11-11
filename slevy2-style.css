@@ -2,7 +2,6 @@ body {
     background-color: #33223C;
     font-family: 'Fauna One', serif;
     font-size: 16px;
-    color: white;
 }
 
 #float-heading {
@@ -43,6 +42,23 @@ body {
     text-decoration: none;
 }
 
+div.body-box {
+    border-radius: 25px;
+    background-color: white;
+    background-position: right bottom, left top
+}
+
+div.body-box p {
+    padding: 20px;
+}
+
+div.body-box h1 {
+    padding: 20px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 24px;
+}
+
 
 div.gallery img {
     width: 100%;
@@ -54,7 +70,7 @@ div.gallery img {
 }
 
 .responsive {
-    padding: 0 6px;
+    padding: 6 0px;
     float: left;
     width: 24.99999%;
 }
