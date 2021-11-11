@@ -9,11 +9,29 @@ body {
     top: 0;
 }
 
-#float-heading a {
+#float-heading a.buttons {
     float: right;
     display: block;
     color: #000000;
     text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#float-heading a.title {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#float-heading a.subtitle {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: left;
     padding: 14px;
     text-decoration: none;
 }
