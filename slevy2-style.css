@@ -1,5 +1,8 @@
 body {
     background-color: #33223C;
+    font-family: 'Fauna One', serif;
+    font-size: 16px;
+    color: white;
 }
 
 #float-heading {
@@ -14,24 +17,63 @@ body {
     display: block;
     color: #000000;
     text-align: center;
-    padding: 14px;
+    font-size: 20px;
+    padding: 20px;
     text-decoration: none;
 }
 
 #float-heading a.title {
     float: left;
     display: block;
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    padding: 14px;
     color: #000000;
     text-align: left;
-    padding: 14px;
     text-decoration: none;
 }
 
 #float-heading a.subtitle {
     float: left;
     display: block;
+    font-size: 15px;
     color: #000000;
     text-align: left;
-    padding: 14px;
+    padding: 30px 14px 14px 5px;
     text-decoration: none;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%
+    }
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
